@@ -1,0 +1,35 @@
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px){
+    .wraper{ width: 100%;}
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px){
+    #content{ width: 100%; float: none;}
+    #sidebar { width: 100%;float: none; padding-left: 0px;}
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px){
+  *{width: 480px;}
+    .left{display: none;}
+    #slide{display: none;}
+    .right{display: none;}
+    .support{display: none}
+    div.product{width: 1.3em;margin: 0 auto;}
+    .product .product_item{border: 0px;}
+    .product .product_item:hover{border: 0px;}
+    .cart{display: none;}
+    #menu{float: left;width: 480px}
+    #menu.menu_top{width: 480px;}
+    #back_to_top{width: 20px;height: 0px;}
+    div.footer #footer_face{display: none;}
+    .tittle-box-center h2{margin-top: -5px;}
+
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px){
+
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px){
+
+}
