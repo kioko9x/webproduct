@@ -368,3 +368,9 @@ ul.news li a img
   width:250px;
   margin-top: 17px;
 }
+
+.mh-float-left{
+    float: left;
+}.mh-float-right{
+    float: right;
+}

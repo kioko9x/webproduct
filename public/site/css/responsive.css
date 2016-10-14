@@ -18,8 +18,7 @@
     .product .product_item{border: 0px;}
     .product .product_item:hover{border: 0px;}
     .cart{display: none;}
-    #menu{float: left;width: 480px}
-    #menu.menu_top{width: 480px;}
+    ul#menu.menu_top{width: auto;}
     #back_to_top{width: 20px;height: 0px;}
     div.footer #footer_face{display: none;}
     .tittle-box-center h2{margin-top: -5px;}

@@ -66,9 +66,9 @@ Class User extends MY_Controller
                 if($this->user_model->create($data))
                 {
                     //tạo ra nội dung thông báo
-                    $this->session->set_flashdata('message', 'Đăng ký thành viên thành công');
+                    redirect(site_url('mail'));
                 }else{
-                    $this->session->set_flashdata('message', 'Không thêm được');
+                    $this->session->set_flashdata('message', 'Vui lòng vào hòm mail vừa đăng kí để kích hoạt');
                 }
                 //chuyen tới trang danh sách quản trị viên
                 redirect(site_url());

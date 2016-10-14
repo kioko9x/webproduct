@@ -181,9 +181,9 @@ $(document).ready(function() {
      <ul>
 	       <li><a title="Chi tiết sản phẩm" rel='tab2' href='javascript:void(0)' class="tab selected">Chi tiết sản phẩm</a></li>
 	       <li><a title="Video" rel='tab3' href='javascript:void(0)' class="tab">Video</a></li> 
-	       <?php /*?>
+	       <?php ?>
 	       <li><a title="Hỏi đáp về sản phẩm" rel='tab4' href='javascript:void(0)' class="tab">Hỏi đáp về sản phẩm</a></li> 
-	       <?php */?>        
+	       <?php ?>        
 	</ul>
 </div><!-- end  <div class="usual" id="usual1">-->
 

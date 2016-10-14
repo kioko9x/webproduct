@@ -33,7 +33,7 @@ Class Product extends MY_Controller
     
         //lay danh sach san pham trong csdl,moi lan lay limit 3 san pham
         //$this->uri->segment(n): lay ra phan doan thu n tren link url
-        $segment = $this->uri->segment(4);
+        $segment = $this->uri->segment(3);
         $segment = intval($segment);
         $input = array();
         $input['limit'] = array($config['per_page'], $segment);
@@ -286,7 +286,10 @@ Class Product extends MY_Controller
         echo $output;
         exit();
     }
+    function comment()
+    {
+        $this->load->view('site/comment/comment');
+    }
 }
-
 
 
